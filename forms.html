@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Ödev</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>ABC Tasarım Programı Kurulum ve Satış Sözleşmesi :)</h1>
+    <form action="./result.html">
+        <fieldset>
+            <legend>Sözleşme Onay</legend>
+            <input type="checkbox" name="onay_kabul-red" id="sözlesme_onay">
+            <label for="sözlesme_onay">Aşağıdaki bilgilerin doğruluğunu kabul ediyorum ve sözleşmesini onaylıyorum.</label>
+            <br>
+            <label for="Formu kaydet"></label>
+            <input type="Submit" name="Formu kaydet" id="Formu kaydet" value="Formu Kaydet">
+            <label for="Formu Temizle"></label>
+            <input type="reset" name="Formu Temizle" id="Formu Temizle" value="Formu Temizle">
+        </fieldset>
+        
+        <div>
+        <fieldset>
+            <legend>Kişisel Bilgiler</legend>
+                <label for="ID">Form Güvenlik ID</label>
+                <input type="text" name="ID" id="ID" placeholder="asdfg"><br>
+                <label for="isim">Ad</label>
+                <input type="text" name="isim" id="isim"><br>
+                <label for="soyisim">Soyad</label>
+                <input type="text" name="soyisim" id="soyisim"><br>
+                <label for="yaş">Yaş</label>
+                <input type="number" name="yaş" id="yaş"><br>
+                <label for="email">Mail Adresi</label>
+                <input type="email" name="email" id="email"><br>
+                <label for="fotoğraf_ekle">Fotoğraf Ekle</label>
+                <input type="file" name="fotoğraf_ekle" id="fotoğraf_ekle" value="Dosya Seç">
+            </fieldset>
+        </div>
+        <div>
+
+            <fieldset>
+                <legend>Diğer Bilgiler</legend>
+                <h3>Buradaki Alanlar Mesleki Deneyimi Kapsar</h3><br>
+                <label for="">Sektöre Giriş Tarihi</label>
+                <input type="date" name="" id=""><br>
+                <div>
+
+                    <p>Sektör Deneyimi</p>
+                    <input type="radio" name="deneyim_süresi" id="yıl1">
+                    <label for="yıl1">1-5 yıl</label><br>
+                    <input type="radio" name="deneyim_süresi" id="yıl2">
+                    <label for="yıl2">6-10 yıl</label><br>
+                    <input type="radio" name="deneyim_süresi" id="yıl3">
+                    <label for="yıl3">11-15 yıl</label><br>
+                    <input type="radio" name="deneyim_süresi" id="yıl4">
+                    <label for="yıl4">15-üzeri</label>
+                </div><br>
+                <div>
+
+                    <label for="dil">Programlama Dilleri</label>
+                    <select name="secilen_dil" id="dil" size="5" multiple>
+                        <option value="C#">C#</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Java">Java</option>
+                        <option value="Java">Java</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="React">React</option>
+                    </select>
+                </div>
+            </fieldset>
+        </div>
+        <fieldset>
+            <legend>Sözleşme Kopyası</legend>
+            <label for="sözlesme"></label>
+            <select name="sözleşme_kopya" id="sözlesme">
+                <option value="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor atque nostrum iste, possimus asperiores soluta provident nobis sed fugiat exercitationem tempora, amet, eligendi aperiam! Culpa perspiciatis illo facilis earum quibusdam.</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Mail Listesi</legend>
+            <label for="istemek">Mail Listesine Katılmak <b>İstiyorum</b></label>
+            <input type="radio" name="Listeye_katılma_istegi" id="istemek"><br>
+            <label for="istememek">Mail Listesine Katılmak <b>İstemiyorum</b></label>
+            <input type="radio" name="Listeye_katılma_istegi" id="istememek">
+        
+        </fieldset>
+            
+            
+
+
+        
+        
+        
+            
+            
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
